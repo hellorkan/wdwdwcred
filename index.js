@@ -1,6 +1,6 @@
 ﻿const Discord = require("discord.js");
 const client = new Discord.Client();
-const fs = require("fs"); // npm i fs
+//const fs = require("fs"); // npm i fs
 
 let credit = require("./credits.json");
 let daily = require("./daily.json");
@@ -9,6 +9,19 @@ let daily = require("./daily.json");
 // Please check the token!
 
 // v settings v
+client.on('ready', () => {
+  console.log(`Logged in as ${client.user.tag}!`);
+  //client.user.setStatus('dnd')
+ // client.user.setGame(`with sexy yaman.`)
+   //client.user.setActivity("our codes",{type: 'WATCHING'});
+  console.log('')
+  console.log('')
+  console.log('╔[════════════]╗')
+  console.log(' Bot Is Online ')
+  console.log('╚[════════════]╝')
+  console.log('')
+  console.log('')
+});
 
 //var token = ''; // <-- bot token
 let mincredit = 1;
