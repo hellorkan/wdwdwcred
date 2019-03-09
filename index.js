@@ -10,7 +10,7 @@ let daily = require("./daily.json");
 
 // v settings v
 
-var token = 'NTUzNjk5MzA2ODU1NTk2MDMy.D2VT9g.3J6hTJemrpe2AzxtUSqjCPeuTOg'; // <-- bot token
+var token = ''; // <-- bot token
 let mincredit = 1;
 let maxcredit = 1;
 var prefix = '$';
