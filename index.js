@@ -10,7 +10,7 @@ let daily = require("./daily.json");
 
 // v settings v
 
-var token = ''; // <-- bot token
+//var token = ''; // <-- bot token
 let mincredit = 1;
 let maxcredit = 1;
 var prefix = '$';
@@ -223,6 +223,6 @@ message.channel.awaitMessages(msg => msg.author == message.author, {
 });
 
 
-client.login(token);
+client.login(process.env.BOT_TOKEN);
 
 // copyright by Perks Developers!
