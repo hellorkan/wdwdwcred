@@ -215,7 +215,7 @@ message.channel.awaitMessages(msg => msg.author == message.author, {
   }
 
  if (command === "credithelp") {
-  message.author.send("**الأوامر العامة**\n**$daily**  : الحصول على الراتب اليومي\n**$credits**  : التحويل ومعرفة الرصيد\n \n**this code made by ! BeeGet³~#0863**");
+  message.author.send("**الأوامر العامة**\n**$daily**  : الحصول على الراتب اليومي\n**$credits**  : التحويل ومعرفة الرصيد\n \n** **");
  }
   }
   // commands
